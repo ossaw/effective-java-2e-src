@@ -1,4 +1,4 @@
-// Annotation type with an array parameter -  Page 173
+// Annotation type with an array parameter - Page 173
 package org.effectivejava.examples.chapter06.item35;
 
 import java.lang.annotation.ElementType;
@@ -14,5 +14,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface ExceptionTest {
-	Class<? extends Exception>[] value();
+    Class<? extends Exception>[] value();
 }
