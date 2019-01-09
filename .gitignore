@@ -2,3 +2,7 @@
 .project
 .settings
 bin/
+.idea
+.idea/
+effective-java-2e-src.iml
+out/
